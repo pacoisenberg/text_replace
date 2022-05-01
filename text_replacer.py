@@ -6,7 +6,7 @@ base_go_link = "https://go/"
 part450_sections = []
 part450_url = []
 
-with open('part450list.csv','r') as f:
+with open('short_part450list.csv','r') as f:
     csv_data = csv.reader(f)
 
     for row in csv_data:
