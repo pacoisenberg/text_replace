@@ -7,7 +7,7 @@ base_go_link = "http://go/edit/"
 cfr_part_sections = []
 cfr_part_url = []
 
-with open('part420list.csv','r') as f:
+with open('part417list.csv','r') as f:
     csv_data = csv.reader(f)
 
     for row in csv_data:
